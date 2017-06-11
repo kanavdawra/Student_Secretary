@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.root.bunker.show_row">
+    <include
+        android:id="@+id/toolbar_show_row"
+        layout="@layout/toolbar"
+        />
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:fillViewport="true">
+
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:weightSum="100"
+        android:id="@+id/show_layout"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:background="@color/colorAccent"
+            android:id="@+id/show_layout_sub"
+            android:layout_weight="11.11">
+
+            <TextView
+                android:id="@+id/text_sub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="Subject:           "
+                android:textColor="@android:color/white"
+                android:textSize="20dp" />
+    <TextView
+        android:id="@+id/text_sub_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/show_layout_add"
+            android:background="@color/colorAccent"
+            android:layout_weight="11.11">
+
+            <TextView
+                android:id="@+id/text_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="Lec. Address: "
+                android:textColor="@android:color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/text_lec_add_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="24dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/show_layout_del"
+            android:background="@color/colorAccent"
+            android:layout_weight="11.11">
+
+            <TextView
+                android:id="@+id/text_lec_del"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="Lec. Deleverd: "
+                android:textColor="@android:color/white"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/text_lec_del_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24dp"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/show_layout_att"
+            android:background="@color/colorAccent"
+            android:layout_weight="11.11 ">
+
+            <TextView
+                android:id="@+id/text_lec_att"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="Lec. Attended: "
+                android:textColor="@android:color/white"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/text_lec_att_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24dp"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/show_layout_bunk"
+            android:background="@color/colorAccent"
+            android:layout_weight="11.11">
+
+            <TextView
+                android:id="@+id/text_lec_bunk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="Lec. Bunked:    "
+                android:textColor="@android:color/white"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/text_lec_bunk_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24dp"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/show_layout_pr"
+            android:background="@color/colorAccent"
+            android:layout_weight="11.11">
+
+            <TextView
+                android:id="@+id/text_lec_pr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="%age Requierd:"
+                android:textColor="@android:color/white"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/text_lec_pr_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24dp"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/show_layout_cp"
+            android:background="@color/colorAccent"
+            android:layout_weight="11.11">
+
+            <TextView
+                android:id="@+id/text_lec_cp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="%age Current:   "
+                android:textColor="@android:color/white"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/text_lec_cp_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24dp"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/show_layout_size"
+            android:background="@color/colorAccent"
+            android:layout_weight="11.11">
+
+            <TextView
+                android:id="@+id/text_lec_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="Lec. Size:           "
+                android:textColor="@android:color/white"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/text_lec_size_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24dp"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/show_layout_ab"
+            android:background="@color/colorAccent"
+            android:layout_weight="11.11">
+
+            <TextView
+                android:id="@+id/text_lec_ab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Allowed. Bunks: " />
+
+            <TextView
+                android:id="@+id/text_lec_ab_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24dp"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="" />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

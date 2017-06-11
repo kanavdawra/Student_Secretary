@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimar">#d30500ae</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrima">#3849b7</color>
+    <color name="colorPrim">#3e52ce</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="gree">#d41fa42c</color>
+    <color name="greed">#1d9e29</color>
+    <color name="red">#d6e2393b</color>
+    <color name="redd">#d23537</color>
+    <color name="yellow">#e1e100</color>
+    <color name="yellowd">#caca00</color>
+    <color name="gry">#E7AEAEA6</color>
+    <color name="gryd">#93938c</color>
+    <color name="why">#ffffff</color>
+    <color name="w">#6affffff</color>
+    <color name="wh">#c3ffffff</color>
+    <color name="default_bar">#6a12a6</color>
+    <color name="splash">#FFFFFFFF</color>
+
+</resources>

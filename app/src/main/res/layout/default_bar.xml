@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent" android:layout_height="wrap_content"
+android:background="@color/colorPrimary"
+android:elevation="4dp"
+android:theme="@style/AppTheme.AppBarOverlay"
+    >
+<LinearLayout
+    android:id="@+id/sub_list_layout"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_weight="100"
+
+    android:elevation="10dp">
+
+    <TextView
+        android:id="@+id/list_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="45"
+        android:gravity="left"
+        android:maxLength="15"
+        android:scrollHorizontally="true"
+        android:text="Subjects"
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/list_per"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_weight="60"
+        android:gravity="left"
+        android:scrollHorizontally="true"
+        android:text="Current %age"
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_weight="65"
+        android:gravity="center"
+        android:scrollHorizontally="true"
+        android:text="Avail. Bunks"
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_weight="65"
+        android:gravity="center"
+        android:scrollHorizontally="true"
+        android:text="Edit/Delete"
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
+
+</LinearLayout>
+</android.support.v7.widget.Toolbar>
